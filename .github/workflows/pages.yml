@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   build:
-    uses: abernier/tailwind-nextjs-starter-blog/.github/workflows/pages.yml@pages
+    uses: abernier/tailwind-nextjs-starter-blog/.github/workflows/action.yml@pages
     with:
       base_path: /myblog
       repo: abernier/tailwind-nextjs-starter-blog
